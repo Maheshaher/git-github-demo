@@ -6,6 +6,10 @@ public class Main {
         return a+b;
 
     }
+    public static int sub(int a ,int b){
+        return a-b;
+
+    }
 
 
     public static void main(String[] args) {
@@ -13,6 +17,8 @@ public class Main {
 
         int Add=add(4,9);
         System.out.println(Add);
+        System.out.println(sub(8,3));
+
 
 
 
